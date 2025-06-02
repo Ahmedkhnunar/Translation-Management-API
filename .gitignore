@@ -28,3 +28,6 @@ Homestead.json
 .env.production
 .phpactor.json
 auth.json
+
+# Ignoring SQLite database file (if you use SQLite)
+database/database.sqlite
