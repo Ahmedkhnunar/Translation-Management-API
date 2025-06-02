@@ -1,3 +1,9 @@
+It seems like there's an extra backtick (\`) at the end of the file, which is causing the formatting issue. To fix that, simply remove the backtick at the end of your file (after the last "Contact" section).
+
+Here’s the corrected version without the extra backtick:
+
+---
+
 # Translation Management API
 
 A Laravel-based API for managing multi-language translations with token authentication and advanced features like tag filtering and JSON export.
@@ -6,25 +12,25 @@ A Laravel-based API for managing multi-language translations with token authenti
 
 ## Features
 
-- Multi-language support  
-- Tag-based filtering  
-- JSON export  
-- Token authentication using Laravel Sanctum  
-- 100k+ seed records for testing and development  
+* Multi-language support
+* Tag-based filtering
+* JSON export
+* Token authentication using Laravel Sanctum
+* 100k+ seed records for testing and development
 
 ---
 
 ## Table of Contents
 
-- [Setup](#setup)  
-- [Docker Setup](#docker-setup)  
-- [Running the Application](#running-the-application)  
-- [Database Commands](#database-commands)  
-- [Testing](#testing)  
-- [API Documentation](#api-documentation)  
-- [Contributing](#contributing)  
-- [License](#license)  
-- [Contact](#contact)  
+* [Setup](#setup)
+* [Docker Setup](#docker-setup)
+* [Running the Application](#running-the-application)
+* [Database Commands](#database-commands)
+* [Testing](#testing)
+* [API Documentation](#api-documentation)
+* [Contributing](#contributing)
+* [License](#license)
+* [Contact](#contact)
 
 ---
 
@@ -37,7 +43,7 @@ Follow these steps to get the application running locally without Docker:
    ```bash
    git clone https://github.com/Ahmedkhnunar/Translation-Management-API.git
    cd Translation-Management-API
-````
+   ```
 
 2. Install PHP dependencies with Composer:
 
@@ -148,7 +154,6 @@ Contributions are welcome! Please follow these steps:
 Ahmed Khan - [ahmedkhnunar@gmail.com](mailto:ahmedkhnunar@gmail.com)
 Project Link: [https://github.com/Ahmedkhnunar/Translation-Management-API](https://github.com/Ahmedkhnunar/Translation-Management-API)
 
-```
-
 ---
 
+That should resolve the display issue you're experiencing. Let me know if there's anything else you'd like to adjust!
